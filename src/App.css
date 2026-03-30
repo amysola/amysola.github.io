@@ -1,0 +1,276 @@
+:root {
+  --primary-violet: #673ab7; /* Titles and accents */
+  --dark-violet: #311b92; /* Dark tags and text */
+  --bg-violet-light: #f5f2ff; /* Profile background */
+  --accent-violet: #d1c4e9; /* Light tags */
+  --text-main: #333333;
+  --text-light: #666666;
+  --font-family: "Inter", system-ui, sans-serif;
+}
+
+body {
+  background-color: #f4f4f7;
+  font-family: var(--font-family);
+  color: var(--text-main);
+  margin: 0;
+}
+
+.page-wrapper {
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.resume {
+  background: white;
+  width: 100%;
+  max-width: 850px;
+  padding: 50px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+/* Header */
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.name {
+  font-size: 42px;
+  margin: 0;
+  font-weight: 800;
+  letter-spacing: -1px;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+  display: block;
+}
+.title-line {
+  color: var(--primary-violet);
+  font-weight: 600;
+  font-size: 15px;
+  margin: 8px 0;
+}
+.contact-row {
+  font-size: 12.5px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: var(--text-light);
+}
+.contact-row a {
+  color: inherit;
+  text-decoration: none;
+}
+.dot {
+  color: var(--accent-violet);
+}
+
+/* Profile Box Alejo Style */
+.profile-box {
+  text-align: left;
+  background-color: var(--bg-violet-light);
+  border-left: 5px solid var(--primary-violet);
+  padding: 20px 25px;
+  margin-bottom: 35px;
+}
+.profile-text {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Layout Columns 60/40 */
+.two-col {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 45px;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--primary-violet);
+  border-bottom: 2px solid var(--accent-violet);
+  padding-bottom: 5px;
+  margin: 30px 0 15px 0;
+  font-weight: 800;
+}
+
+/* Content Elements */
+.intro-text {
+  text-align: left;
+  font-size: 13px;
+  color: var(--text-light);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.group-title {
+  font-size: 14px;
+  color: var(--dark-violet);
+  margin-bottom: 8px;
+}
+
+.bullet-list {
+  text-align: left;
+  padding-left: 18px;
+  margin: 0 0 15px 0;
+}
+.bullet-list li {
+  font-size: 13.5px;
+  line-height: 1.6;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+/* Tags & Skills */
+.skill-label {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--text-dark);
+  margin: 15px 0 8px 0;
+}
+.tag-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+.tag {
+  font-size: 11px;
+  padding: 4px 10px;
+  border-radius: 4px;
+  background: var(--accent-violet);
+  color: var(--dark-violet);
+  font-weight: 600;
+}
+.tag.dark {
+  background: var(--dark-violet);
+  color: white;
+}
+
+.strength-pill {
+  font-size: 11px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--accent-violet);
+  color: var(--primary-violet);
+  font-weight: 500;
+}
+
+/* Education & Languages */
+.section-title {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--primary-violet);
+  border-bottom: 2px solid var(--accent-violet);
+  padding-bottom: 5px;
+  margin: 30px 0 18px 0;
+  font-weight: 800;
+  text-align: center;
+}
+
+.edu-entry {
+  margin-bottom: 22px;
+  text-align: left;
+}
+
+.edu-institution {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--dark-violet);
+  display: block;
+}
+.edu-degree {
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--text-main);
+  margin-bottom: 2px;
+  display: block;
+}
+.edu-meta {
+  font-size: 14px;
+  color: var(--text-light);
+  font-weight: 400;
+  display: block;
+}
+
+.lang-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  padding: 6px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.course-item {
+  margin-bottom: 12px;
+}
+
+/* Buttons & Printing */
+.download-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  background: var(--primary-violet);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media print {
+  /* 1. Configuramos la página física */
+  @page {
+    size: A4;
+    margin: 0; /* Dejamos que el CSS controle los márgenes internos */
+  }
+
+  /* 2. Ajustamos el cuerpo para que no se "estire" */
+  html,
+  body {
+    width: 210mm; /* Ancho estándar A4 */
+    height: auto !important; /* <--- CAMBIO: Que crezca según tu texto, no forzado */
+    background: white !important;
+    overflow: visible; /* Asegura que nada se esconda */
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  /* 3. Limpiamos el contenedor de "pantalla" */
+  .page-wrapper {
+    display: block !important;
+    padding: 0 !important;
+    min-height: 0 !important; /* <--- ESTO ELIMINA EL HUECO GIGANTE */
+    margin: 0 !important;
+  }
+
+  /* 4. Tu CV ahora tiene márgenes reales de papel */
+  .resume {
+    width: 100% !important;
+    padding: 1.2cm 1.5cm !important; /* Márgenes internos reales en el PDF */
+    margin: 0 !important;
+    box-shadow: none !important;
+    /* Un pequeño ajuste de escala por si el nombre es muy largo */
+    transform: scale(0.98);
+    transform-origin: top center;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  /* 5. Aseguramos que tus dos columnas se mantengan en el PDF */
+  .two-col {
+    display: grid !important;
+    grid-template-columns: 1.6fr 1fr !important;
+    gap: 30px !important;
+  }
+}
