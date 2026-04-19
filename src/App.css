@@ -157,6 +157,14 @@ body {
   font-weight: 500;
 }
 
+/* Featured Projects */
+.project-link {
+  font-size: 13px;
+  color: var(--primary-violet);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
 /* Education & Languages */
 .section-title {
   font-size: 11px;

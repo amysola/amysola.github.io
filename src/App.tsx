@@ -73,7 +73,7 @@ function App() {
               <div className="edu-entry">
                 <div className="edu-institution">UNITEC</div>
                 <div className="edu-degree">B.A Foreign Languages and Interpreter</div>
-                <div className="edu-meta">2020 – 2024</div>
+                <div className="edu-meta">2020 – 2022</div>
               </div>
 
               {/* COURSERA - REACT */}
@@ -95,6 +95,13 @@ function App() {
                 <div className="edu-institution">COURSERA</div>
                 <div className="edu-degree">Product Management</div>
                 <div className="edu-meta">2025</div>
+              </div>
+
+              {/* COURSERA - PYTHON */}
+              <div className="edu-entry">
+                <div className="edu-institution">University of Michigan</div>
+                <div className="edu-degree">Python</div>
+                <div className="edu-meta">2026</div>
               </div>
             </section>
           </div>
@@ -120,6 +127,7 @@ function App() {
                 <span className="tag">Digital Drawing</span>
                 <span className="tag">CSS Animations</span>
                 <span className="tag">Figma</span>
+                <span className="tag">Blender</span>
               </div>
 
               <h3 className="skill-label">Soft Skills</h3>
@@ -157,6 +165,15 @@ function App() {
                 <span className="strength-pill">Multilingual</span>
                 <span className="strength-pill">Team Player</span>
                 <span className="strength-pill">Detail-Oriented</span>
+              </div>
+            </section>
+
+            <section>
+              <h2 className="section-title">Featured Projects</h2>
+              <div className="tag-container">
+                <a href="https://amysola.github.io/core-store/" target="_blank" className="project-link">
+                  Core Store (React E-commerce)
+                </a>
               </div>
             </section>
           </div>
