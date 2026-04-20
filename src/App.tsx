@@ -43,7 +43,7 @@ Passionate about building web interfaces that are not only performant and access
           <div className="col-left">
             <section>
               <h2 className="section-title">What I Bring</h2>
-              <p className="intro-text">A rare blend of technical frontend skills and serious design talent. My background in languages and interpretation makes me a strong communicator — I understand how to translate ideas into experiences that work for real users.</p>
+              <p className="intro-text">A rare blend of technical frontend skills and serious design talent. My background in languages and interpretation makes me a strong communicator. I understand how to translate ideas into experiences that work for users.</p>
 
               <div className="sub-section">
                 <h3 className="group-title">Frontend Focus</h3>
@@ -57,7 +57,7 @@ Passionate about building web interfaces that are not only performant and access
               </div>
 
               <div className="sub-section">
-                <h3 className="group-title">Design Superpower</h3>
+                <h3 className="group-title">Creative Impact</h3>
                 <ul className="bullet-list">
                   <li>Exceptional illustration and digital drawing ability.</li>
                   <li>Strong sense of visual hierarchy, color, and typography.</li>
