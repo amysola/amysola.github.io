@@ -16,7 +16,7 @@ function App() {
         {/* HEADER */}
         <header className="header">
           <h1 className="name">Amy Tlapalamatl Sola</h1>
-          <p className="title-line">Frontend Developer · UI/UX & Visual Design · React / TypeScript / CSS</p>
+          <p className="title-line">Frontend Developer · UI/UX & Visual Design · React / TypeScript / CSS / Python </p>
           <div className="contact-row">
             <a href="mailto:amysola99@gmail.com">amysola99@gmail.com</a>
             <span className="dot">·</span>
@@ -30,11 +30,11 @@ function App() {
           </div>
         </header>
 
-        {/* PROFILE BOX (Alejo's Style) */}
+        {/* PROFILE BOX  */}
         <div className="profile-box">
           <p className="profile-text">
-            Creative and detail-oriented **Frontend Developer** with a strong foundation in React, TypeScript, and JavaScript, complemented by a rare combination of technical skill and exceptional artistic ability. Multilingual communicator with a background in Foreign Languages, bringing a unique
-            perspective to user experience and international product design. Passionate about crafting beautiful, performant, and accessible web interfaces.
+           Creative and detail-oriented Frontend Developer with a solid foundation in React, TypeScript, and JavaScript. I combine technical skills with a strong artistic sensibility and a background in foreign languages, bringing a unique perspective to user experience and international product design.
+Passionate about building web interfaces that are not only performant and accessible, but also visually refined.
           </p>
         </div>
 
@@ -173,6 +173,9 @@ function App() {
               <div className="tag-container">
                 <a href="https://amysola.github.io/core-store/" target="_blank" className="project-link">
                   Core Store (React E-commerce)
+                </a>
+                <a href="https://www.figma.com/design/pQnP6PpUaKIILLyn3G7W5i/Core-Store---UI-Lab?node-id=52-129&t=KXXG8b5LlDCmpB7T-1" target="_blank" className="project-link">
+                  Core Store - UI Lab Figma
                 </a>
               </div>
             </section>
