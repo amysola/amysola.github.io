@@ -22,7 +22,7 @@ function App() {
             <span className="dot">·</span>
             <span>+34 614 347 202</span>
             <span className="dot">·</span>
-            <span>Madrid, Spain</span>
+            <span>Oviedo, Asturias. Spain</span>
             <span className="dot">·</span>
             <a href="https://linkedin.com/in/amysola" target="_blank">
               linkedin.com/in/amysola
