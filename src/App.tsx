@@ -73,7 +73,7 @@ Passionate about building web interfaces that are not only performant and access
               <div className="edu-entry">
                 <div className="edu-institution">UNITEC</div>
                 <div className="edu-degree">B.A Foreign Languages and Interpreter</div>
-                <div className="edu-meta">2020 – 2022</div>
+                <div className="edu-meta">2020 – 2024</div>
               </div>
 
               {/* COURSERA - REACT */}
